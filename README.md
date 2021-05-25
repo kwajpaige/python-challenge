@@ -1,26 +1,30 @@
 # python-challenge
-Background
-Well... you've made it!
-It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete the two Python Challenges, PyBank and PyPoll.
-Both of these challenges encompass a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
+Project Background
+Complete the two Python Challenges, PyBank and PyPoll.
+The project contains two main forlder: PYBANK and PYPOLL
+Each folder contains 
+  A new file called main.py. This will be the main script to run for each analysis.
+  A "Resources" folder that contains the CSV files used. 
+  An "analysis" folder that contains a text file that has the results from the analysis.
+  
+Objectives:
+PYBANK Challenge: Create a Python script for analyzing the financial records of your company
+PyPoll Challenge: Help a small, rural town modernize its vote counting process.
 
 PYBANK CHALLENGE
-In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
-
-
-Your task is to create a Python script that analyzes the records to calculate each of the following:
+Create a Python script that analyzes the records to calculate each of the following:
 The total number of months included in the dataset
 The net total amount of "Profit/Losses" over the entire period
 Calculate the changes in "Profit/Losses" over the entire period, then find the average of those changes
 The greatest increase in profits (date and amount) over the entire period
 The greatest decrease in losses (date and amount) over the entire period
 
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+The final script should both print the analysis to the terminal and export a text file with the results.
 
 PYPOLL CHALLENGE
-In this challenge, you are tasked with helping a small, rural town modernize its vote counting process.
+Help a small, rural town modernize its vote counting process.
 
-You will be give a set of poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+Create a Python script that analyzes votes and calculates each of the following:
 The total number of votes cast
 A complete list of candidates who received votes
 The percentage of votes each candidate won
